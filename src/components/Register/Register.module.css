@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+}
+
+img {
+    width: 50vw;
+    display: block;
+    height: 130vh;
+}
+
+/* .top {
+    position: absolute;
+    display: flex;
+    top: 4vh;
+    left: 2vw;
+    gap: 40px;
+    color: white;
+    align-items: center;
+} */
+
+/* .top p {
+    font-size: larger;
+    font-weight: 600;
+} */
+
+/* .top button {
+    padding: 12px 32px;
+    background: #72DB73;
+    border-radius: 33px;
+    color: white;
+    box-shadow: none;
+    border: none;
+} */
+
+.bottom {
+    position: absolute;
+    bottom: 3vh;
+    left: 2vw;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    max-width: 50vw;
+}
+
+.body {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body .super {
+    color: #72db73;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* paragraph */
+.body p {
+    font-size: 10px;
+}
+
+.super {
+    font-family: "Single Day", cursive;
+}
+
+form input {
+    margin: 5px auto;
+    padding: 7px;
+    width: 70%;
+    max-width: 400px;
+    background-color: #292929;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    transition: border 0.3s;
+    border: none;
+    font-size: 0.6rem;
+}
+
+form input:focus {
+    border-color: #72db73;
+}
+
+form .error {
+    color: red;
+    font-size: 14px;
+    width: 90%;
+    max-width: 400px;
+    margin: -10px auto 8px;
+    text-align: left;
+    margin-top: 2px;
+}
+
+form label {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    width: 70%;
+    max-width: 400px;
+    margin: 8px auto;
+    text-align: left;
+    font-size: 10px;
+}
+
+form label input[type="checkbox"] {
+    margin: 0;
+    width: 14px;
+    height: 14px;
+}
+
+form button {
+    width: 70%;
+    max-width: 400px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 3px 12px;
+    color: white;
+    background-color: #72db73;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #5cb85c;
+}
+
+.footer p {
+    font-size: 8px;
+    color: #7c7c7c;
+    width: 70%;
+    max-width: 400px;
+    margin: 8px auto;
+    text-align: left;
+    line-height: 0.8rem;
+}
+
+.footer span {
+    color: #72db73;
+    cursor: pointer;
+}
+
+/* @media (max-width: 768px) {
+    .body {
+        padding: 2vw;
+    }
+} */
