@@ -86,10 +86,10 @@ form input:focus {
 
 form .error {
     color: red;
-    font-size: 14px;
-    width: 90%;
+    font-size: 8px;
+    width: 70%;
     max-width: 400px;
-    margin: -10px auto 8px;
+    margin: -10px auto 5px;
     text-align: left;
     margin-top: 2px;
 }
