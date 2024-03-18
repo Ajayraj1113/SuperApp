@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import styles from "./Register.module.css";
-import coverImage from "../../assets/images/cover.png.png"
+import coverImage from "../../assets/images/cover.png"
 import Button from "../Button/Button"
 import { useNavigate } from 'react-router-dom';
 
