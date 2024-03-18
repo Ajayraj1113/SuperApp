@@ -5,10 +5,10 @@
 img {
     width: 50vw;
     display: block;
-    height: 130vh;
+    height: 110vh;
 }
 
-/* .top {
+.top {
     position: absolute;
     display: flex;
     top: 4vh;
@@ -16,28 +16,28 @@ img {
     gap: 40px;
     color: white;
     align-items: center;
-} */
+}
 
-/* .top p {
+.top p {
     font-size: larger;
     font-weight: 600;
-} */
+}
 
-/* .top button {
+.top button {
     padding: 12px 32px;
     background: #72DB73;
     border-radius: 33px;
     color: white;
     box-shadow: none;
     border: none;
-} */
+}
 
 .bottom {
     position: absolute;
     bottom: 3vh;
     left: 2vw;
     color: white;
-    font-size: 25px;
+    font-size: 55px;
     font-weight: 900;
     max-width: 50vw;
 }
@@ -53,13 +53,8 @@ img {
 
 .body .super {
     color: #72db73;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-/* paragraph */
-.body p {
-    font-size: 10px;
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 .super {
@@ -67,17 +62,16 @@ img {
 }
 
 form input {
-    margin: 5px auto;
-    padding: 7px;
-    width: 70%;
+    margin: 12px auto;
+    padding: 10px;
+    width: 90%;
     max-width: 400px;
     background-color: #292929;
-    border-radius: 5px;
+    border-radius: 6px;
     color: white;
     outline: none;
     transition: border 0.3s;
     border: none;
-    font-size: 0.6rem;
 }
 
 form input:focus {
@@ -86,10 +80,10 @@ form input:focus {
 
 form .error {
     color: red;
-    font-size: 8px;
-    width: 70%;
+    font-size: 14px;
+    width: 90%;
     max-width: 400px;
-    margin: -10px auto 5px;
+    margin: -10px auto 8px;
     text-align: left;
     margin-top: 2px;
 }
@@ -99,29 +93,28 @@ form label {
     flex-direction: row;
     justify-content: start;
     gap: 10px;
-    width: 70%;
+    width: 90%;
     max-width: 400px;
-    margin: 8px auto;
+    margin: 12px auto;
     text-align: left;
-    font-size: 10px;
 }
 
 form label input[type="checkbox"] {
     margin: 0;
-    width: 14px;
-    height: 14px;
+    width: 24px;
+    height: 24px;
 }
 
 form button {
-    width: 70%;
+    width: 90%;
     max-width: 400px;
-    margin: 5px auto;
+    margin: 24px auto;
     border-radius: 24px;
-    padding: 3px 12px;
+    padding: 10px 12px;
     color: white;
     background-color: #72db73;
     border: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -131,13 +124,13 @@ form button:hover {
 }
 
 .footer p {
-    font-size: 8px;
+    font-size: 14px;
     color: #7c7c7c;
-    width: 70%;
+    width: 90%;
     max-width: 400px;
     margin: 8px auto;
     text-align: left;
-    line-height: 0.8rem;
+    line-height: 1.2rem;
 }
 
 .footer span {
@@ -145,8 +138,8 @@ form button:hover {
     cursor: pointer;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .body {
         padding: 2vw;
     }
-} */
+}
