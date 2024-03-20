@@ -3,6 +3,7 @@ import ProfileCard from "../ProfileCard/ProfileCard"
 import Notes from '../Notes/Notes'
 import News from "../News/News"
 import Weather from '../Weather/Weather'
+import Timer from '../Timer/Timer'
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
             <div>
                 <ProfileCard />
                 <Weather />
-                {/* <Timer /> */}
+                <Timer />
             </div>
             <div>
                 <Notes />
