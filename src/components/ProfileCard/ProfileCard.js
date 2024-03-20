@@ -1,4 +1,5 @@
 import React from 'react'
+import Profile from "../../assets/images/profileBig.png";
 
 export default function ProfileCard() {
 
@@ -6,7 +7,7 @@ export default function ProfileCard() {
 
     if (userDetails) {
         userDetails = JSON.parse(userDetails);
-        console.log(userDetails)
+        // console.log(userDetails)
     }
 
   return (
@@ -23,7 +24,7 @@ export default function ProfileCard() {
     >
         <div>
             <img
-                // src={Profile}
+                src={Profile}
                 style={{
                     height: "32vh",
                     width: "10vw",
