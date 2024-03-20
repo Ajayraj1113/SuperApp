@@ -5,8 +5,15 @@ import News from "../News/News"
 import Weather from '../Weather/Weather'
 import Timer from '../Timer/Timer'
 
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+    const navigate = useNavigate();
+
+    const navigateToMovies = () => {
+        navigate("/movies");
+    };
+
   return (
     <div
         style={{
@@ -32,10 +39,10 @@ export default function Home() {
             </div>
         </div>
         <button
-            // onClick={navigateToMovies}
+            onClick={navigateToMovies}
             style={{
                 position: "absolute",
-                bottom: "2vh",
+                bottom: "1vh",
                 right: "3vw",
                 background: "green",
                 border: "none",

@@ -27,7 +27,7 @@ const News = () => {
             width: "30vw",
             position: "relative",
             borderRadius: "12px",
-            padding: "6px",
+            // padding: "6px",
         }}
     >
         <img
