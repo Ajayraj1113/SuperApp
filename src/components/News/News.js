@@ -37,7 +37,7 @@ const News = () => {
         />
         <div
             style={{
-                height: "25vh",
+                height: "26vh",
                 borderRadius: "12px",
                 width: "30vw",
                 background: "white",
@@ -51,7 +51,7 @@ const News = () => {
             style={{
                 position: "absolute",
                 width: "30vw",
-                height: "30vh",
+                height: "29vh",
                 background: "rgba(0, 0, 0, 0.74)",
                 top: "31vh",
                 padding: "24px",

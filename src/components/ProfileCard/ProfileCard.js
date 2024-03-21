@@ -7,7 +7,14 @@ export default function ProfileCard() {
 
     if (userDetails) {
         userDetails = JSON.parse(userDetails);
-        // console.log(userDetails)
+        // console.log(userDetails);
+    }
+
+    let genreDetails = localStorage.getItem("genre");
+
+    if (genreDetails) {
+        genreDetails = JSON.parse(genreDetails);
+        console.log(genreDetails);
     }
 
   return (
@@ -26,7 +33,7 @@ export default function ProfileCard() {
             <img
                 src={Profile}
                 style={{
-                    height: "32vh",
+                    height: "38vh",
                     width: "10vw",
                     position: "relative",
                     top: "2vh",
@@ -38,7 +45,7 @@ export default function ProfileCard() {
             style={{
                 display: "flex",
                 flexDirection: "column",
-                gap: "12px",
+                // gap: "12px",
             }}
         >
             <p style={{ color: "white", fontSize: "2rem" }}>
@@ -50,8 +57,35 @@ export default function ProfileCard() {
             <p style={{ color: "white", fontSize: "3rem" }}>
                 {userDetails.userName}
             </p>
-            {/* <Chips categories={"genre"} color={"#9F94FF"} /> */}
+            <Chips categories={genreDetails} color={"#9F94FF"} />
         </div>
     </div>
   );
+};
+
+const Chips = ({ color, categories }) => {
+    // console.log(categories)
+
+    return (
+        <div style={{ width: "20vw" }}>
+            {categories.map((category) => (
+                <button
+                    style={{
+                        background: `${color}`,
+                        borderRadius: "12px",
+                        width: "100px",
+                        color: "white",
+                        border: "none",
+                        padding: "6px",
+                        height: "30px",
+                        flexShrink: 0,
+                        margin: "10px",
+                    }}
+                >
+                    {category}{" "}
+                    <span style={{ color: "black", marginLeft: "4px" }}>X</span>
+                </button>
+            ))}
+        </div>
+    );
 };

@@ -11,7 +11,7 @@ const Weather = () => {
 
     const fetchWeatherDetails = async () => {
         const result = await getWeatherDetails();
-        console.log(result)
+        // console.log(result)
 
         setWeather(result.current)
         setDate(result.location.localtime)

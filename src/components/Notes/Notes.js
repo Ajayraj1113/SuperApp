@@ -23,7 +23,7 @@ export default function Notes() {
         style={{
             color: "white",
             background: "#F1C75B",
-            height: "60vh",
+            height: "61vh",
             width: "30vw",
             position: "relative",
             borderRadius: "12px",

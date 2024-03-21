@@ -42,7 +42,7 @@ export default function Home() {
             onClick={navigateToMovies}
             style={{
                 position: "absolute",
-                bottom: "1vh",
+                bottom: "2vh",
                 right: "3vw",
                 background: "green",
                 border: "none",
