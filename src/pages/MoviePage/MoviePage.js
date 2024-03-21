@@ -1,11 +1,11 @@
 import React from 'react'
 
-import GenrePage from "../../components/MovieGenre/MovieGenre"
+import  Movies from "../../components/Movies/Movies"
 
 export default function MoviePage() {
   return (
     <div>
-      <GenrePage />
+      <Movies />
     </div>
   )
 }
